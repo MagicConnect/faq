@@ -1,0 +1,19 @@
+{{ define "main"}}
+<div class="container section">
+  <div class="row">
+    <div class="col-lg-8 text-center mx-auto">
+      You found our wonderful 404 page, which means you tried to access content that doesn't exist.
+      <br><br>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-8 text-center mx-auto">
+      <main id="main">
+        <div>
+          <h3 id="title"><a href="{{ "/" | relURL }}">Go Back</a></h3>
+        </div>
+      </main>
+    </div>
+  </div>
+</div>
+{{ end }}

@@ -207,7 +207,7 @@ select:focus {
 
 .bg-cover {
   background-size: cover;
-  background-position: center center;
+  background-position: top;
   background-repeat: no-repeat;
 }
 
@@ -231,8 +231,8 @@ pre {
   width: 100%;
   top: 0;
   left: 0;
-  background: var(--primary-color);
-  opacity: .8;
+  background: #000000;
+  opacity: .6;
 }
 
 .outline-0 {

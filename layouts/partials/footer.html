@@ -12,9 +12,9 @@
             <a
               class="text-color d-inline-block p-2"
               href="{{ .link | safeURL }}"
-              aria-label="{{ .name }}"
-              ><i class="{{ .icon }}"></i
-            ></a>
+              aria-label="{{ .name }}">
+              {{ partial "svg" .icon }}
+            </a>
           </li>
           {{ end }}
         </ul>
