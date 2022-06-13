@@ -22,7 +22,7 @@
               {{ with .Params.icon}}
                 <i class="{{.}} icon text-primary d-block mb-4"></i>
               {{end}}
-              <h3 class="mb-3 mt-0">{{ .Title }}</h3>
+              <h3 class="mb-3 mt-0 front-page-card-title">{{ .Title }}</h3>
               {{with .Params.description}}
                 <p class="mb-0">{{. | markdownify}}</p>
               {{end}}
