@@ -109,14 +109,14 @@ hasChildren = true
 
   [[Languages.en.menu.main]]
   parent = "Docs"
-  name = "MagiCon! Adventure"
-  url = "adventure/"
+  name = "Magic Connect!"
+  url = "magicconnect/"
   weight = 1
 
   [[Languages.en.menu.main]]
   parent = "Docs"
-  name = "MagiCon! Club"
-  url = "club/"
+  name = "MagiCon! Link"
+  url = "link/"
   weight = 2
 
   [[Languages.en.menu.main]]
